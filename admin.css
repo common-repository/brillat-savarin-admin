@@ -1,0 +1,332 @@
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-new_draft {
+  display: none !important;
+}
+
+.lzb-gutenberg-gallery .lzb-gutenberg-image-item, .lzb-gutenberg-image .lzb-gutenberg-image-item {
+  width: 90%;
+}
+
+.wp-block-lazyblock-en-tete .lzb-content-controls > div:first-child .rich-text {
+  font-size: 2rem;
+}
+
+.wp-block-lazyblock-bloc-title .rich-text {
+  font-size: 2rem;
+}
+
+.block-editor-block-list__block {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.lzb-content-edit-link {
+  display: none;
+}
+
+#login h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+#login h1::before {
+  content: url("../images/logo.svg");
+  width: 2em;
+}
+#login h1::after {
+  content: "+";
+  margin: 0 1em;
+}
+#login h1 a {
+  margin: 0;
+  order: 2;
+}
+
+#loginform > * {
+  margin: 1em 0;
+}
+
+#nav-menus-frame #customlinkdiv > p {
+  display: flex;
+}
+#nav-menus-frame #customlinkdiv > p input[type=text] {
+  flex: 1;
+  margin-left: 1em;
+}
+#nav-menus-frame #submit-customlinkdiv {
+  float: none;
+}
+#nav-menus-frame .add-new-menu-action {
+  display: inline;
+}
+#nav-menus-frame .publishing-action {
+  float: right !important;
+}
+#nav-menus-frame #post-body-content {
+  box-sizing: border-box;
+  padding: 2em 1em 1em;
+}
+#nav-menus-frame .drag-instructions {
+  display: none;
+}
+#nav-menus-frame .menu-item-bar .menu-item-handle {
+  box-sizing: border-box;
+  max-width: 80%;
+}
+#nav-menus-frame .menu-settings {
+  margin-top: 4em;
+}
+#nav-menus-frame .menu-settings .menu-settings-group {
+  padding: 0;
+}
+#nav-menus-frame .menu-settings .menu-settings-group legend {
+  margin: 1em 0 0;
+  width: 100%;
+}
+#nav-menus-frame .menu-item-settings {
+  box-sizing: border-box;
+  max-width: 80%;
+}
+#nav-menus-frame .menu-item-settings > * {
+  float: none;
+  width: auto;
+}
+#nav-menus-frame .menu-item-settings > * input[type=text] {
+  margin-top: 0.5em;
+}
+#nav-menus-frame .menu-item-settings .field-move {
+  display: none !important;
+}
+#nav-menus-frame .menu-item-settings > *, #nav-menus-frame .menu-item-settings .acf-menu-item-fields > * {
+  margin: 1em;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  #nav-menus-frame {
+    display: flex;
+    margin: 3em 0;
+  }
+  #nav-menus-frame #menu-settings-column {
+    box-sizing: border-box;
+    margin-left: 0;
+    min-width: 40%;
+    padding-right: 2em;
+  }
+  #nav-menus-frame #menu-management-liquid {
+    min-width: 60%;
+    width: auto;
+  }
+}
+#adminmenu li.menu-top {
+  margin-bottom: -1px;
+}
+#adminmenu li.menu-top:hover {
+  z-index: 2;
+}
+#adminmenu li.menu-top > a {
+  border-bottom: solid 1px #111;
+  border-top: solid 1px #111;
+  padding: 0.65em 0.5em;
+  transition: color 200 ms ease;
+}
+#adminmenu li.wp-menu-separator {
+  background-color: #111;
+  height: 0.5em;
+  margin-bottom: 0;
+}
+#adminmenu li.ame-unclickable-menu-item {
+  background: #111;
+  pointer-events: none;
+}
+#adminmenu li.ame-unclickable-menu-item > a {
+  opacity: 0.5;
+  font-size: 0.8rem;
+  padding: 5px 12px;
+  pointer-events: none;
+}
+#adminmenu li.ame-unclickable-menu-item > a .wp-menu-name {
+  padding-left: 0.5em;
+}
+#adminmenu li.ame-unclickable-menu-item .dashicons-before {
+  display: none;
+}
+
+#adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu {
+  width: 200px;
+  margin: 0;
+}
+
+#wpcontent, #wpfooter {
+  margin-left: 200px;
+}
+
+#adminmenu .wp-submenu, .auto-fold .interface-interface-skeleton {
+  left: 200px;
+}
+
+.php-error #adminmenuback, .php-error #adminmenuwrap {
+  margin-top: 0;
+}
+
+.auto-fold .edit-post-layout .components-editor-notices__snackbar {
+  left: 230px;
+}
+
+.optionsPage .acf-fields > .acf-tab-wrap {
+  background: transparent;
+  margin-bottom: 2em;
+}
+.optionsPage .acf-form-submit {
+  margin: 2em 1em;
+}
+.optionsPage div[data-name=tel] input {
+  width: 10em;
+}
+.optionsPage div[data-name=mail] input {
+  width: 25em;
+}
+.optionsPage div[data-name=adresse] input {
+  width: 35em;
+}
+.optionsPage div[data-name=code_postal] {
+  display: inline-block;
+}
+.optionsPage div[data-name=code_postal] input {
+  width: 10em;
+}
+.optionsPage div[data-name=ville] {
+  display: inline-block;
+}
+.optionsPage div[data-name=ville] input {
+  width: 25em;
+}
+.optionsPage div[data-name=pays] input {
+  width: 20em;
+}
+
+.wiki-page {
+  padding-bottom: 8em;
+}
+.wiki-page h2 {
+  border-top: dashed 1px grey;
+  margin-top: 3em;
+  padding-top: 1.5em;
+  text-decoration: underline;
+}
+.wiki-page h3 {
+  font-size: 1.125em;
+  margin-top: 2em;
+}
+.wiki-page ul {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+.wiki-page ol {
+  margin-left: 1em;
+}
+.wiki-page ul ul, .wiki-page ul ol, .wiki-page ol ul, .wiki-page ol ol {
+  margin: 0.75em 0 1.5em;
+}
+.wiki-page ul ul, .wiki-page ol ul {
+  list-style-type: circle;
+}
+.wiki-page em {
+  text-decoration: underline;
+}
+.wiki-page q {
+  background-color: lightgrey;
+  display: block;
+  margin: 2em 0;
+  padding: 1.5em;
+}
+.wiki-page q > *:first-child {
+  margin-top: 0;
+}
+.wiki-page button {
+  pointer-events: none;
+  padding: 0.2em;
+}
+.wiki-page button.menu {
+  align-items: center;
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  display: inline-flex;
+  padding: 0.35em 0.5em;
+  vertical-align: middle;
+}
+.wiki-page button.menu div {
+  margin-right: 0.25em;
+}
+.wiki-page label {
+  border: solid 1px;
+  padding: 0.2em;
+}
+
+.wpseo-metabox-content {
+  margin: 0 auto;
+}
+
+#wpadminbar {
+  background-color: #181b1f;
+}
+
+.wp-block {
+  max-width: 800px;
+}
+
+#wpbody-content {
+  box-sizing: border-box;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+#wpbody-content h1 {
+  margin: 3em 0.5em 0.5em 0;
+}
+
+table.plugins {
+  table-layout: fixed;
+}
+table.plugins .check-column {
+  width: 2em;
+}
+table.plugins .column-primary {
+  width: 30%;
+}
+table.plugins .column-auto-updates {
+  width: 7em;
+}
+
+.row-actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu-management-liquid {
+  width: 100%;
+}
+
+#nav-menu-header .menu-name-label {
+  display: block;
+}
+#nav-menu-header #menu-name {
+  margin-bottom: 1em;
+}
+#nav-menu-header .publishing-action {
+  float: none;
+  text-align: left;
+}
+
+#menu-management #post-body-content {
+  min-width: auto;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
